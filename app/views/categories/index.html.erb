@@ -3,8 +3,7 @@
     <% @categories.each do |category| %>
       <li>
         <div>
-          <%= image_tag(category.icon.to_s, alt: 'Category icon') %>
-
+          <%= image_tag category.icon if category.icon.attached? %>
         </div>
         <div>
           <%= category.name %>
@@ -15,4 +14,8 @@
       </li>
     <% end %>
   </ul>
+
+  <div>
+    <%= link_to 'New Category', new_category_path %>
+  </div>
 </section>
