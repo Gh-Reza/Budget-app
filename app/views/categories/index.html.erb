@@ -1,1 +1,17 @@
-<h1>Categories</h1>
+<section class="section">
+  <ul>
+    <% @categories.each do |category| %>
+      <li>
+        <div>
+          <img src="<%= category.icon %>" alt="category icon">
+        </div>
+        <div>
+          <%= category.name %>
+        </div>
+        <div>
+          <%#= category.getTotalPurchases %>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+</section>
