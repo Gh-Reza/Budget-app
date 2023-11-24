@@ -15,3 +15,31 @@
  */
 
 /* /* == npx stylelint "**.{css,scss}"  == */
+
+/* ======== Splash page ============== */
+
+section {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.section-splash {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.section-splash h1 {
+  font-size: 64px;
+  border-bottom: 2px solid #3778c2;
+  color: #3778c2;
+}
+
+.link-box {
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+}
