@@ -3,8 +3,8 @@ class PurchasesController < ApplicationController
 
   def index
     @category = Category.find(params[:category_id])
-    @purchases = current_user.purchases.joins(:categories).
-      where(categories: { id: @category.id }).order(created_at: :desc)
+    @purchases = current_user.purchases.joins(:categories)
+      .where(categories: { id: @category.id }).order(created_at: :desc)
   end
 
   def new
