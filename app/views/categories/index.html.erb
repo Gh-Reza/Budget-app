@@ -5,9 +5,9 @@
         <div>
           <%= image_tag category.icon if category.icon.attached? %>
         </div>
-        <div>
-          <%= category.name %>
-        </div>
+          <div>
+            <%= link_to category.name, category_purchases_path(category.id) %>
+          </div>
         <div>
           <%= category.get_total_purchases %>
         </div>
