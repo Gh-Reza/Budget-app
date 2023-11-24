@@ -72,3 +72,5 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 gem 'pg'
 
 gem 'devise'
+
+gem "font-awesome-rails"
