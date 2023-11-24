@@ -3,7 +3,8 @@ class PurchasesController < ApplicationController
 
   def index
     @category = Category.find(params[:category_id])
-    @purchases = current_user.purchases.joins(:categories).where(categories: { id: @category.id }).order(created_at: :desc)
+    @purchases = current_user.purchases.joins(:categories).
+      where(categories: { id: @category.id }).order(created_at: :desc)
   end
 
   def new
@@ -14,9 +15,7 @@ class PurchasesController < ApplicationController
   def create
     @purchase = current_user.purchases.build(purchases_params)
     if @purchase.save
-      if params[:purchase][:category_ids].present?
-        @purchase.category_ids = params[:purchase][:category_ids]
-      end
+      @purchase.category_ids = params[:purchase][:category_ids] if params[:purchase][:category_ids].present?
 
       redirect_to category_purchases_path
     else
