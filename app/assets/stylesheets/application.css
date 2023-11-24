@@ -180,3 +180,7 @@ section {
   text-align: center;
   font-size: 24px;
 }
+
+.file-input {
+  text-align: start;
+}
