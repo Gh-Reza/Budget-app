@@ -1,0 +1,22 @@
+<section class="section">
+  <h1>Transactions</h1>
+  <ul>
+    <% @purchases.each do |purchase| %>
+      <li>
+        <div>
+          <%= image_tag @category.icon %>
+        </div>
+        <div>
+          <div>
+            <p><%= purchase.name %></p>
+            <strong><%= purchase.amount %></strong>
+          </div>
+          <div>
+            <p><%= purchase.created_at %></p>
+          </div>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+  <%= link_to 'New transaction', new_category_purchase_path %>
+</section>
