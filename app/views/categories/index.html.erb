@@ -1,1 +1,21 @@
-<h1>Categories</h1>
+<section class="section">
+  <ul>
+    <% @categories.each do |category| %>
+      <li>
+        <div>
+          <%= image_tag category.icon if category.icon.attached? %>
+        </div>
+          <div>
+            <%= link_to category.name, category_purchases_path(category.id) %>
+          </div>
+        <div>
+          <%= category.total_purchases %>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+
+  <div>
+    <%= link_to 'New Category', new_category_path %>
+  </div>
+</section>
