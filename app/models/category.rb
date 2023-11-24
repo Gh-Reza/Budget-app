@@ -8,9 +8,9 @@ class Category < ApplicationRecord
   validates :name, presence: true
   validates :icon, presence: true
 
-  def get_total_purchases
+  def total_purchases
     total = 0
-    self.purchases.each do |purchase|
+    purchases.each do |purchase|
       total += purchase.amount
     end
     total
