@@ -1,5 +1,9 @@
 <section class="section">
   <h1>Transactions</h1>
+  <div>
+    <h4>Total: </h4>
+    <strong><%= @category.total_purchases %></strong>
+  </div>
   <ul>
     <% @purchases.each do |purchase| %>
       <li>

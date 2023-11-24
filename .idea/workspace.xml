@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a39141c-c823-4dd8-871e-5c0a2f1f571b" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/app/views/purchases/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20231124074123_change_author_to_user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/purchases_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/purchases_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/purchase.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/purchase.rb" afterDir="false" />
@@ -252,7 +253,7 @@
       <updated>1700716833373</updated>
       <workItem from="1700716838602" duration="12438000" />
       <workItem from="1700748834701" duration="13295000" />
-      <workItem from="1700817860834" duration="2083000" />
+      <workItem from="1700817860834" duration="2500000" />
     </task>
     <servers />
   </component>
