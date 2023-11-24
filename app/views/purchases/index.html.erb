@@ -4,7 +4,7 @@
     <% @purchases.each do |purchase| %>
       <li>
         <div>
-          <%= image_tag @category.icon %>
+          <%= image_tag @category.icon if @category.icon.attached? %>
         </div>
         <div>
           <div>

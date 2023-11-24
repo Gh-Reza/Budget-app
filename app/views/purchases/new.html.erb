@@ -1,0 +1,20 @@
+<section class="section">
+  <h2>Add new transaction</h2>
+  <%= form_with model: @purchase, url: category_purchases_path, method: :post do |f|%>
+    <div class="field">
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </div>
+    <div class="field">
+      <%= f.label :amount %>
+      <%= f.text_field :amount %>
+    </div>
+    <div class="field">
+      <%= f.label :category_ids %>
+      <%= f.collection_select :category_ids, @categories, :id, :name %>
+    </div>
+    <div class="actions">
+      <%= f.submit "Submit" %>
+    </div>
+  <%end %>
+</section>
