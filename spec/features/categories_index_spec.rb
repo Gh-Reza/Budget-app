@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.feature 'Categories', type: :feature do
   include Warden::Test::Helpers
   let(:user) { create(:user) }
-  let(:category) { create(:category, user: user) }
-  let(:purchase) { create(:purchase, user: user) }
-  let(:purchase_category) { create(:purchase_category, purchase: purchase, category: category) }
+  let(:category) { create(:category, user:) }
+  let(:purchase) { create(:purchase, user:) }
+  let(:purchase_category) { create(:purchase_category, purchase:, category:) }
 
   before(:each) do
     login_as user, scope: :user
