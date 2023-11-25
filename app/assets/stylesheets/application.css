@@ -27,19 +27,19 @@
 }
 
 @font-face {
-  font-family: "ProximaBold";
-  src: url("../fonts/ProximaBold.otf");
+  font-family: 'ProximaBold';
+  src: url('../fonts/ProximaBold.otf');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "ProximaLight";
-  src: url("../fonts/ProximaLight.otf");
+  font-family: 'ProximaLight';
+  src: url('../fonts/ProximaLight.otf');
   font-weight: 300;
 }
 
 body {
-  font-family: "ProximaLight", sans-serif;
+  font-family: 'ProximaLight', sans-serif;
   font-size: 16px;
   color: #333;
   background-color: #e8edf3;
@@ -62,7 +62,7 @@ section {
 }
 
 .section-splash h1 {
-  font-family: "ProximaBold", sans-serif;
+  font-family: 'ProximaBold', sans-serif;
   font-size: 64px;
   border-bottom: 2px solid #3778c2;
   color: #3778c2;
@@ -87,7 +87,7 @@ section {
 }
 
 .header h2 {
-  font-family: "ProximaBold", sans-serif;
+  font-family: 'ProximaBold', sans-serif;
   font-size: 32px;
   text-align: center;
 }
@@ -144,7 +144,7 @@ section {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  background-color:#ffffff;
+  background-color: #fff;
   padding: 16px;
   border-radius: 3px;
   width: 100%;
@@ -162,7 +162,7 @@ section {
 
 .category-name {
   flex-grow: 1;
-  font-family: "ProximaBold", sans-serif;
+  font-family: 'ProximaBold', sans-serif;
   font-size: 24px;
 }
 
@@ -206,7 +206,7 @@ section {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  background-color:#ffffff;
+  background-color: #fff;
   padding: 16px;
   border-radius: 3px;
   width: 100%;
@@ -218,7 +218,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  color: #666666;
+  color: #666;
 }
 
 .creation-box p {
