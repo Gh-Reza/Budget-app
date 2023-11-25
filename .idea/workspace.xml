@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/purchases/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/purchases/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/purchases/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/purchases/new.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +251,7 @@
       <workItem from="1700716838602" duration="12438000" />
       <workItem from="1700748834701" duration="13295000" />
       <workItem from="1700817860834" duration="2830000" />
-      <workItem from="1700902529710" duration="601000" />
+      <workItem from="1700902529710" duration="2683000" />
     </task>
     <servers />
   </component>

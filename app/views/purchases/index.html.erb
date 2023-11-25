@@ -26,8 +26,8 @@
               <p><%= purchase.name %></p>
               <strong><%= purchase.amount %></strong>
             </div>
-            <div>
-              <p><%= purchase.created_at %></p>
+            <div class="creation-box">
+              <p><%= DateTime.parse(purchase.created_at.to_s).strftime("%d %b %Y") %></p>
             </div>
           </div>
         </li>
