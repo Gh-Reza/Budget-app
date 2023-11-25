@@ -51,6 +51,7 @@ group :development, :test do
   gem 'faker'
   gem 'rails-controller-testing'
   gem 'rspec-rails'
+  gem 'devise'
 end
 
 group :development do
@@ -75,7 +76,5 @@ end
 gem 'rubocop', '>= 1.0', '< 2.0'
 
 gem 'pg'
-
-gem 'devise'
 
 gem "font-awesome-rails"
