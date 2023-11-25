@@ -31,7 +31,7 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # Specifies the `pidfile` that Puma will use.
 pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 
-workers ENV.fetch("WEB_CONCURRENCY") { 4 }
+# workers ENV.fetch("WEB_CONCURRENCY") { 4 }
 
 preload_app!
 
