@@ -24,13 +24,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Recipes App] <a name="about-project"></a>
+# 📖 [Budget App] <a name="about-project"></a>
 
 <div align="center">
 
 </div>
 
-**[Recipes App]** a ruby on rails project that allows users to create recipes, shopping lists, and foods
+**[Budget App]** 
+This Rails application empowers users to seamlessly manage their expenses and purchases. Users can organize transactions into various categories or brands, gaining valuable insights into their spending habits. The app is designed for efficiency and clarity, providing a user-friendly interface for easy navigation and comprehensive financial tracking. Take control of your expenses with this intuitive Expense Manager Rails App.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,13 +46,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Create Recipes**
-- **Create Shopping Lists**
-- **Add foods**
+- **Create categories**
+- **Create transactions**
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-RecipeApp
+Budget App
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@ Rails 7.07 or above
 
 ### Setup
 
-```https://github.com/Gh-Reza/RecipeApp.git```
+```https://github.com/Gh-Reza/Budget-app.git```
 
 
 ### Install
@@ -90,12 +90,6 @@ No deployment implemented yet
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Marc Raphael**
-
-- GitHub: [@Marc Raphael](https://github.com/Marcraphael12)
-- Twitter: [@Marc Raphael](https://twitter.com/marcraphael4)
-- LinkedIn: [@Marc Raphael](https://www.linkedin.com/in/marc-raphael)
-
 👤 **Reza Merzaie**
 
 - GitHub: [@Gh-Reza](https://github.com/Gh-Reza)
@@ -108,7 +102,7 @@ No deployment implemented yet
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Form to create inventory
+- User can delete transactions and categories
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +112,7 @@ No deployment implemented yet
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/theresetuyi/Ruby-on-Rails-group-project/issues).
+Feel free to check the [issues page](https://github.com/Gh-Reza/Budget-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
