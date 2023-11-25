@@ -82,7 +82,7 @@ run ```rspec spec```
 
 ### Deployment
 
-No deployment implemented yet
+This project is deployed on Render. You can visit it [here](https://mybudget-c56c.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
