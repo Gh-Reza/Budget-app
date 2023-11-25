@@ -86,6 +86,10 @@ This project is deployed on Render. You can visit it [here](https://mybudget-c56
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+Video presentation of the project:
+  
+  [Here](https://drive.google.com/file/d/1TTkDoh7j41L4ESo7JjatNWCv4Yt7KA0k/view?usp=sharing)
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
